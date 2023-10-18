@@ -1,0 +1,26 @@
+# .gitignore
+
+# Ignore IDE specific folders
+.vscode/
+
+# Ignore vendor directory (Composer dependencies)
+/vendor/
+
+# Ignore composer's generated files
+/composer.lock
+/composer.phar
+
+# Ignore PHPStorm project files
+.idea/
+
+# Ignore macOS generated files
+.DS_Store
+
+# Ignore PHPUnit test output
+/tests/_output/
+
+# Ignore any environment specific files
+.env
+
+# Ignore test PDFs
+*.pdf

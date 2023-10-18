@@ -1,0 +1,39 @@
+{
+    "name": "epsonconnectphp/epson",
+    "autoload": {
+        "psr-4": {
+            "Epsonconnectphp\\Epson\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Epsonconnectphp\\Epson\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "arafatk",
+            "email": "arafat.da.khan@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "php -c php.ini vendor/bin/phpunit  -d xdebug.mode=debug --bootstrap vendor/autoload.php tests",
+        "generate-docs": [
+            "@php vendor/bin/phpdoc -d src/ -t docs/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4",
+        "phpdocumentor/phpdocumentor": "^3.1",
+        "phpdocumentor/reflection": "^5.3",
+        "mockery/mockery": "^1.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}

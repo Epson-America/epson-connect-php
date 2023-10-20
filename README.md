@@ -1,6 +1,7 @@
 
 # Epson Connect PHP SDK
 The Epson Connect PHP SDK provides a comprehensive interface to the Epson Connect API. With this SDK, PHP developers can effortlessly control Epson printers and scanners through the Epson cloud service.
+[Documentation](https://arafatkatze.github.io/epson-connect-php/packages/Epsonconnectphp-Epson.html)
 
 ## Getting Started
 ### Installation
